@@ -9,21 +9,30 @@ body
   font-family: 'Quicksand', sans-serif
   background: #212429
   color: #eee
-  padding: 0 4rem
   display: flex
   justify-content: center
 
-.main-container
-  max-width: 2560px
+.main
+  width: 100%
 
-section
+.section
   height: 100vh
+  padding: 4rem
   display: flex
   flex-direction: column
   justify-content: center
+
+  &:nth-child(2n)
+    background: #33373f
 
 .header
   position: absolute
   top: 0
   left: 0
   right: 0
+
+  &-logo
+    font-size: 2rem
+    font-weight: 700
+    line-height: 2rem
+    padding: 1rem
