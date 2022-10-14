@@ -5,12 +5,19 @@
   margin: 0
   padding: 0
 
+html
+  scroll-behavior: smooth
+
 body
   font-family: 'Quicksand', sans-serif
   background: #212429
   color: #eee
   display: flex
   justify-content: center
+
+a
+  text-decoration: none
+  color: #336699
 
 .main
   width: 100%
@@ -21,6 +28,7 @@ body
   display: flex
   flex-direction: column
   justify-content: center
+  gap: 1rem
 
   &:nth-child(2n)
     background: #33373f
@@ -36,3 +44,29 @@ body
     font-weight: 700
     line-height: 2rem
     padding: 1rem
+
+.landing
+  &-links
+    list-style-type: none
+    display: flex
+    gap: 0.5rem
+
+
+.project
+  display: flex
+  flex-direction: column
+  gap: 0.5rem
+
+  &-made-with
+    display: flex
+    flex-wrap: wrap
+    gap: 0.5rem
+
+    &-tag
+      padding: 0.25rem
+      background: #ffffff33
+      border-radius: 0.5rem
+
+@media screen and (prefers-reduced-motion: reduce)
+	html
+		scroll-behavior: auto
