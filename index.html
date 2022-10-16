@@ -4,6 +4,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripton" content="Gunnar Omander's web development portfolio. See experience, work, and contact information.">
+    <meta property="og:title" content="Gunnar's Portfolio">
+    <meta property="og:description" content="Gunnar Omander's web development portfolio. See experience, work, and contact information.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="gomander.github.io">
+    <meta property="og:type" content="website">
     <title>Gunnar's Portfolio</title>
 
     <link rel="stylesheet" href="css/main.min.css">
@@ -15,97 +21,165 @@
       <div class="header-logo">
         GO
       </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="nav-list-link" href="#landing">Home</a></li>
+          <li><a class="nav-list-link" href="#about">About</a></li>
+          <li><a class="nav-list-link" href="#projects">Work</a></li>
+          <li><a class="nav-list-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main">
       <section class="section landing" id="landing">
-        <span class="landing-intro">Hi, my name is</span>
-        <h1>Gunnar Omander</h1>
-        <p class="paragraph">
-          I'm a front-end web developer specializing in Node.js, HTML, and CSS.
-        </p>
-        <p>
-          Check out the <a href="#projects">projects</a> I've worked on and find
-          out how to <a href="#contact">contact</a> me.
-        </p>
-        <ul class="landing-links">
-          <li>
-            <a href="https://github.com/gomander" class="landing-links-link">
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:gunnar.omander@gmail.com" class="landing-links-link">
-              <i class="fa-solid fa-envelope"></i>
-            </a>
-          </li>
-        </ul>
-        <a class="continue-link" href="#about">
-          Read more about me
-          <i class="fa-solid fa-arrow-right-long"></i>
-        </a>
+        <div class="landing-content">
+          <span class="landing-intro">Hi, my name is</span>
+          <h1>Gunnar Omander</h1>
+          <p class="paragraph">
+            I'm a front-end web developer specializing in Node.js, HTML, and CSS.
+          </p>
+          <p>
+            Check out my <a href="https://github.com/gomander" target="_blank">
+            <i class="fa-brands fa-github"></i> Github profile</a>, look at some
+            <a href="#projects">projects</a> I've worked on, and find out how to
+            <a href="#contact">contact me</a>.
+          </p>
+          <div class="skill-icons">
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-vuejs"></i>
+            <i class="fa-brands fa-sass"></i>
+            <i class="fa-brands fa-npm"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-angular"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-git"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-bitbucket"></i>
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-brands fa-docker"></i>
+          </div>
+          <a class="continue-link" href="#about">
+            Read more about me
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
       </section>
 
       <section class="section about" id="about">
-        <h2>Who am I?</h2>
-        <p>
-          I'm a 21 year-old Swedish American studying front-end development at
-          Medieinstitutet in Malmö, Sweden.
-        </p>
-        <p>
-          I began my development journey learning Java in highschool in
-          Silicon Valley. From there, I moved on to Python, and eventually to
-          Node.js when I started working in web development.
-        </p>
+        <div class="about-content">
+          <h2>Who am I?</h2>
+          <p>
+            I'm a 21 year-old Swedish American studying front-end development at
+            Medieinstitutet in Malmö, Sweden.
+          </p>
+          <p>
+            I began my development journey learning Java in highschool in
+            Silicon Valley. From there, I moved on to Python, and eventually to
+            Node.js when I started working in web development.
+          </p>
+          <p>
+            Vue.js is my JS framework of choice, and I've been working with it for
+            a couple years. I have ample experience in standard Node.js, HTML, CSS
+            and even Python.
+          </p>
+          <p>
+            In my free time, I enjoy playing videogames with friends, and it's
+            my dream to someday develop my own game and bring my ideas to life.
+            I also really like computers in general, and have built several PCs
+            in the past few years.
+          </p>
+          <a class="continue-link" href="#projects">
+            See some of my work
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
       </section>
 
       <section class="section projects" id="projects">
-        <h2>Here are some things I've worked on</h2>
-        <article class="project">
-          <h3>
-            <a href="https://wheelofnames.com" target="_new">Wheel of Names</a>
-          </h3>
-          <p>
-            Wheel of Names is a site where you can easily enter a list of texts,
-            images, or both, and have one randomly selected for you with
-            boundless customizability and lots of fun, cool features.
-          </p>
-          <h4>Made with</h4>
-          <div class="project-made-with">
-            <div class="project-made-with-tag">HTML</div>
-            <div class="project-made-with-tag">CSS</div>
-            <div class="project-made-with-tag">Vue.js</div>
-            <div class="project-made-with-tag">Quasar</div>
-            <div class="project-made-with-tag">Firebase</div>
-            <div class="project-made-with-tag">Google Cloud Run</div>
-            <div class="project-made-with-tag">Google Cloud Functions</div>
-          </div>
-        </article>
-        <article class="project">
-          <h3><a href="https://wheelofnames.com/faq/discordbot" target="_new">
-            Wheel of Names Discord bot
-          </a></h3>
-          <p>
-            Spin wheels with members of your server, spin your shared wheels
-            from the wheelofnames.com website, or spin a wheel with any text you
-            want with customizable commands in the Discord client.
-          </p>
-          <p>
-            The Wheel of Names Discord bot has been added to over 10,000 servers
-            and responds to thousands of commands every day with
-            custom-generated wheel spin GIFs.
-          </p>
-          <h4>Made with</h4>
-          <div class="project-made-with">
-            <div class="project-made-with-tag">Discord.js</div>
-            <div class="project-made-with-tag">Google Cloud Run</div>
-          </div>
-        </article>
+        <div class="projects-content">
+          <h2>Here are some things I've worked on</h2>
+          <article class="project">
+            <div class="project-description">
+              <h3>
+                <a href="https://wheelofnames.com" target="_new">Wheel of Names</a>
+              </h3>
+              <p>
+                Wheel of Names is a site where you can easily enter a list of
+                texts, images, or both, and have one randomly selected for you
+                with boundless customizability and lots of fun, cool features.
+              </p>
+              <p>
+                Wheel of Names is used by 2 million people every week to help
+                make decisions, as a randomizer, or for plain entertainment.
+              </p>
+              <h4>Made with</h4>
+              <div class="project-made-with">
+                <div class="project-made-with-tag">HTML</div>
+                <div class="project-made-with-tag">CSS</div>
+                <div class="project-made-with-tag">Vue.js</div>
+                <div class="project-made-with-tag">Quasar</div>
+                <div class="project-made-with-tag">Firebase</div>
+                <div class="project-made-with-tag">Google Cloud Run</div>
+                <div class="project-made-with-tag">Google Cloud Functions</div>
+              </div>
+            </div>
+            <img src="images/Wheel-of-Names-Screenshot.png" alt="" width="500"
+              height="280" class="project-image project-image-wheel-of-names"
+            >
+          </article>
+          <article class="project">
+            <div class="project-description">
+              <h3><a href="https://wheelofnames.com/faq/discordbot" target="_new">
+                Wheel of Names Discord bot
+              </a></h3>
+              <p>
+                Spin wheels with members of your server, spin your shared wheels
+                from the wheelofnames.com website, or spin a wheel with any text you
+                want with customizable commands in the Discord client.
+              </p>
+              <p>
+                The Wheel of Names Discord bot has been added to over 10,000 servers
+                and responds to thousands of commands every day with
+                custom-generated wheel spin GIFs.
+              </p>
+              <h4>Made with</h4>
+              <div class="project-made-with">
+                <div class="project-made-with-tag">Discord.js</div>
+                <div class="project-made-with-tag">Google Cloud Run</div>
+              </div>
+            </div>
+            <img src="images/Discord-Bot-Screenshot.png" alt="" width="272"
+              height="288" class="project-image project-image-discord-bot"
+            >
+          </article>
+          <a class="continue-link" href="#contact">
+            Contact me
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
       </section>
 
-      <section class="section contact">
-        <h3>Get in touch</h3>
-
+      <section class="section contact" id="contact">
+        <div class="contact-content">
+          <h2>Get in touch</h2>
+          <ul class="fa-ul contact-links">
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-envelope"></i></span>
+              <a href="mailto:gunnar.omander@gmail.com" target="_blank" class="contact-links-link">
+                gunnar.omander@gmail.com
+              </a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-brands fa-discord"></i></span>
+              <a href="https://discord.com/users/174679485055107073" target="_blank" class="contact-links-link">
+                Gunnar#1111
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
