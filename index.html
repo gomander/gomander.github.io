@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
   <head>
@@ -29,7 +29,8 @@
         <ul class="nav-list">
           <li><a class="nav-list-link" href="#landing">Home</a></li>
           <li><a class="nav-list-link" href="#about">About</a></li>
-          <li><a class="nav-list-link" href="#projects">Work</a></li>
+          <li><a class="nav-list-link" href="#projects">Projects</a></li>
+          <li><a class="nav-list-link" href="#work">Experience</a></li>
           <li><a class="nav-list-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -41,12 +42,13 @@
           <span class="landing-intro">Hi, my name is</span>
           <h1>Gunnar Omander</h1>
           <p class="paragraph">
-            I'm a full-stack web developer specializing in Javascript and Typescript.
+            I'm a full-stack web developer specializing in Svelte, Vue, and TypeScript.
           </p>
           <p>
             Check out my <a href="https://github.com/gomander" target="_blank">
             <i class="fa-brands fa-github"></i> Github profile</a>, look at some
-            <a href="#projects">projects</a> I've worked on, and find out how to
+            <a href="#projects">projects</a> I've worked on, see my professional
+            <a href="#work">work experience</a>, and find out how to
             <a href="#contact">contact me</a>.
           </p>
           <div class="skill-icons">
@@ -78,18 +80,29 @@
         <div class="about-content">
           <h2>Who am I?</h2>
           <p>
-            I'm a 22 year-old Swedish American studying front-end development at
-            Medieinstitutet in Malmö, Sweden.
+            I'm a 22 year-old Swedish American with a passion for computers,
+            coding, and games. I was born and raised in Silicon Valley, but
+            moved back to Sweden to finish my education, and have lived here
+            since.
           </p>
           <p>
-            I began my development journey learning Java in high school in
-            Silicon Valley. From there, I moved on to Python, and eventually to
-            Javascript when I started working in web development.
+            I began my development journey with Scratch and LEGO Mindstorms in
+            elementary school, then learned Java in middle and high school.
+            From there, I moved on to Python, and eventually to
+            JavaScript when I started working in web development. Lately I've
+            been dipping my toes into Rust as well.
           </p>
           <p>
-            Vue.js is my JS framework of choice, and I've been working with it for
-            a couple years. I also have ample experience in Node.js, Typescript,
-            HTML, CSS, Sass, and even Python.
+            I graduated from the 2-year frontend development program at
+            Medieinstitutet in Malmö in 2024. A large part of the program
+            focused on React, but it also included units on API development,
+            databases, and design.
+          </p>
+          <p>
+            Svelte + SvelteKit and Vue.js are my JS frameworks of choice, with
+            which I've amassed a few years of experience. I also have years of
+            experience in Node.js, TypeScript, HTML, CSS/Sass/SCSS, and even
+            Python.
           </p>
           <p>
             In my free time, I enjoy playing videogames with friends, and it's
@@ -124,8 +137,8 @@
               </p>
               <h4>Made with</h4>
               <div class="project-made-with">
-                <div class="project-made-with-tag">Vue.js</div>
-                <div class="project-made-with-tag">Node.js</div>
+                <div class="project-made-with-tag">Vue</div>
+                <div class="project-made-with-tag">Node</div>
                 <div class="project-made-with-tag">Google Cloud Platform</div>
               </div>
             </div>
@@ -156,7 +169,9 @@
               </p>
               <h4>Made with</h4>
               <div class="project-made-with">
-                <div class="project-made-with-tag">Typescript</div>
+                <div class="project-made-with-tag">TypeScript</div>
+                <div class="project-made-with-tag">Node</div>
+                <div class="project-made-with-tag">Rust</div>
                 <div class="project-made-with-tag">Google Cloud Platform</div>
               </div>
             </div>
@@ -183,8 +198,8 @@
               </p>
               <h4>Made with</h4>
               <div class="project-made-with">
-                <div class="project-made-with-tag">Vue.js</div>
-                <div class="project-made-with-tag">Typescript</div>
+                <div class="project-made-with-tag">Vue</div>
+                <div class="project-made-with-tag">TypeScript</div>
                 <div class="project-made-with-tag">Google Cloud Platform</div>
               </div>
             </div>
@@ -196,6 +211,55 @@
               alt="DARCI has a table view where you can compare which raid triumphs each player needs."
             >
           </article>
+          <a class="continue-link" href="#work">
+            See my professional experience
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="section work" id="work">
+        <div class="work-content">
+          <h2>Work Experience</h2>
+          <article class="work-experience">
+            <div class="work-experience-heading">
+              <h3><a href="https://sprinta.se/" target="_blank">Sprinta</a></h3>
+              <span class="work-experience-date">2023</span>
+            </div>
+            <p>
+              As part of my education at Medieinstitutet, I did a 10-week
+              internship at Sprinta, a development consultancy firm located in
+              Malmö.
+            </p>
+            <p>
+              I worked on an enterprise application for bidding on consulting
+              projects. I worked on the frontend Angular app to implement new
+              features and functionality.
+            </p>
+          </article>
+          <article class="work-experience">
+            <div class="work-experience-heading">
+              <h3>
+                <a href="https://www.coolstuff.se/" target="_blank">
+                  Coolstuff
+                </a>
+              </h3>
+              <span class="work-experience-date">2024</span>
+            </div>
+            <p>
+              Also as part of my education at Medieinstitutet, I did a 16-week
+              internship at Coolstuff, an e-commerce company located in Malmö
+              that sells all kinds of things across multiple European markets.
+            </p>
+            <p>
+              I worked alongside the development team on both the Svelte
+              frontend and the Node backend. I was responsible for implementing
+              an easter egg hunt event, investigating the possibility of
+              creating an AI chatbot, building a dashboard for handling
+              personalized order prints, and many smaller tasks.
+            </p>
+          </article>
+          <p>References available upon request.</p>
           <a class="continue-link" href="#contact">
             Contact me
             <i class="fa-solid fa-arrow-right-long"></i>
@@ -209,11 +273,23 @@
           <ul class="fa-ul contact-links">
             <li>
               <span class="fa-li"><i class="fa-solid fa-envelope"></i></span>
-              <a href="mailto:gunnar@gomander.dev" target="_blank" class="contact-links-link">gunnar@gomander.dev</a>
+              <a
+                href="mailto:gunnar@gomander.dev"
+                target="_blank"
+                class="contact-links-link"
+              >
+                gunnar@gomander.dev
+              </a>
             </li>
             <li>
               <span class="fa-li"><i class="fa-brands fa-discord"></i></span>
-              <a href="https://discord.com/users/174679485055107073" target="_blank" class="contact-links-link">gunnar.o</a>
+              <a
+                href="https://discord.com/users/174679485055107073"
+                target="_blank"
+                class="contact-links-link"
+              >
+                gunnar.o
+              </a>
             </li>
           </ul>
         </div>

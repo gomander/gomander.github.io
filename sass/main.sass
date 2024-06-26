@@ -36,7 +36,11 @@ a, h1, .header, .project-made-with-tag
   &:nth-child(2n)
     background: lighten($bg, 3%)
 
-.landing-content, .about-content, .projects-content, .contact-content
+.landing-content,
+.about-content,
+.projects-content,
+.contact-content,
+.work-content
   display: flex
   flex-direction: column
   justify-content: center
@@ -150,12 +154,35 @@ a, h1, .header, .project-made-with-tag
     &-darci
       width: 500px
 
+.work
+  &-content
+    max-width: 50rem
+  
+  &-experience
+    display: flex
+    flex-direction: column
+    gap: 0.5rem
+
+    &-heading
+      display: flex
+      align-items: center
+      gap: 1rem
+    
+    &-date
+      font-size: 0.9rem
+      color: #ccc
+
 .contact
+  &-content
+    max-width: 42rem
+
   &-links
     list-style-type: none
     display: flex
     flex-flow: row wrap
+    justify-content: center
     gap: 1rem 3rem
+    margin-right: 2.5rem
 
     &-link
       padding: 0.25rem
