@@ -165,6 +165,9 @@ a, h1, .header, .project-made-with-tag {
 .project-image-darci {
   width: 500px;
 }
+.project-image-sveltewheel {
+  width: 474px;
+}
 
 .work-content {
   max-width: 50rem;
