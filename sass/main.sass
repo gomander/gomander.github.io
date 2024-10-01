@@ -34,7 +34,7 @@ a, h1, .header, .project-made-with-tag
   justify-content: center
 
   &:nth-child(2n)
-    background: lighten($bg, 3%)
+    background: adjust-color($bg, $lightness: 3%)
 
 .landing-content,
 .about-content,
@@ -47,7 +47,7 @@ a, h1, .header, .project-made-with-tag
   gap: 1rem
 
 .header
-  background: transparentize($bg, 0.3)
+  background: adjust-color($bg, $alpha: -0.3)
   backdrop-filter: blur(2px)
   position: fixed
   top: 0
@@ -111,7 +111,7 @@ a, h1, .header, .project-made-with-tag
   &-content
     max-width: 50rem
 
-.projects
+.projects, .work
   max-height: unset
 
 .project

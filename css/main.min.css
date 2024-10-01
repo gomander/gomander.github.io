@@ -37,7 +37,7 @@ a, h1, .header, .project-made-with-tag {
   justify-content: center;
 }
 .section:nth-child(2n) {
-  background: #282b31;
+  background: rgb(39.822972973, 43.4432432432, 49.477027027);
 }
 
 .landing-content,
@@ -121,7 +121,7 @@ a, h1, .header, .project-made-with-tag {
   max-width: 50rem;
 }
 
-.projects {
+.projects, .work {
   max-height: unset;
 }
 
