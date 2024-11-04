@@ -22,7 +22,10 @@ a {
   text-decoration-thickness: 1px;
 }
 
-a, h1, .header, .project-made-with-tag {
+a,
+h1,
+.header,
+.project-made-with-tag {
   color: #fff;
 }
 
@@ -32,12 +35,12 @@ a, h1, .header, .project-made-with-tag {
 
 .section {
   max-height: 100vh;
-  padding: 4rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
 }
 .section:nth-child(2n) {
-  background: rgb(39.822972973, 43.4432432432, 49.477027027);
+  background: color-mix(in srgb, #212429, #FFF 3%);
 }
 
 .landing-content,
@@ -52,7 +55,7 @@ a, h1, .header, .project-made-with-tag {
 }
 
 .header {
-  background: rgba(33, 36, 41, 0.7);
+  background: color-mix(in srgb, #212429, rgba(0, 0, 0, 0) 30%);
   backdrop-filter: blur(2px);
   position: fixed;
   top: 0;
@@ -188,7 +191,7 @@ a, h1, .header, .project-made-with-tag {
 }
 
 .contact-content {
-  max-width: 42rem;
+  max-width: 48rem;
 }
 .contact-links {
   list-style-type: none;
@@ -202,7 +205,8 @@ a, h1, .header, .project-made-with-tag {
   padding: 0.25rem;
 }
 
-.fa-arrow-right-long {
+.fa-arrow-right-long,
+.fa-download {
   margin-left: 0.5rem;
 }
 
