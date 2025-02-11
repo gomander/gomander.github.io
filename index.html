@@ -84,7 +84,7 @@
         <div class="about-content">
           <h2>Who am I?</h2>
           <p>
-            I'm a 23 year-old Swedish American with a passion for computers,
+            I'm a <span id="age">23</span> year-old Swedish American with a passion for computers,
             coding, and games. I was born and raised in Silicon Valley, but
             moved back to Sweden to finish my education, and have lived here
             since.
@@ -460,5 +460,9 @@
         </div>
       </section>
     </main>
+
+    <script>
+      document.querySelector('#age').innerText = new Date(Date.now() - new Date('2001-08-22')).getFullYear() - 1970;
+    </script>
   </body>
 </html>
